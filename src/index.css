@@ -1,0 +1,75 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
+
+/* Avatar Styling */
+td img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Button Styling */
+button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+/* Pagination Buttons */
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Header Styling */
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Navbar Styling */
+nav {
+  margin-bottom: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
